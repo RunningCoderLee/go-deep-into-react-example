@@ -2,7 +2,6 @@
 import React, { PropTypes } from 'react';
 import CSSModules from 'react-css-modules';
 import classNames from 'classnames';
-import styles from './index.scss';
 import TabNav from './TabNav';
 import TabContent from './TabContent';
 
@@ -102,4 +101,4 @@ class Tabs extends React.Component {
   }
 }
 
-export default CSSModules(Tabs, styles);
+export default Tabs;

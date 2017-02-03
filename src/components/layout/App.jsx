@@ -74,8 +74,8 @@ class App extends React.Component {
           collapsed={this.state.collapsed}
           onCollapse={this.onCollapse}
         >
-          <div className="logo">
-            <Link to="/home"><img src={logo} className="App-logo" alt="logo" /></Link>
+          <div className="logo-root">
+            <Link to="/home"><img src={logo} className="logo" alt="logo" /></Link>
           </div>
           <Menu
             theme="dark"
@@ -107,19 +107,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-// const App = ({ children }) => (
-//   <div className="App">
-//     <div className="App-header">
-//       <img src={logo} className="App-logo" alt="logo" />
-//       <h2>Go deep into react - Example code</h2>
-//     </div>
-//     {children}
-//   </div>
-// );
-//
-// App.propTypes = {
-//   children: React.PropTypes.element,
-// };
-//
-// export default App;
