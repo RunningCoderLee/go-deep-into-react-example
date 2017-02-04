@@ -5,10 +5,14 @@ import TwoPointTwo from './twoPointTwo';
 
 const ChapterTwo = () => (
   <div>
-    <h3>2.1 事件系统</h3>
-    <TwoPointOne />
-    <h3>2.2 表单</h3>
-    <TwoPointTwo />
+    <section>
+      <h2>2.1 事件系统</h2>
+      <TwoPointOne />
+    </section>
+    <section>
+      <h2>2.2 表单</h2>
+      <TwoPointTwo />
+    </section>
   </div>
 );
 

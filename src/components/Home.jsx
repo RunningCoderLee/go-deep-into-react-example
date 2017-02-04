@@ -22,7 +22,7 @@ const Home = () => (
   <div styleName="wrapper">
     <div styleName="header">
       <img src={logo} styleName="logo" alt="logo" />
-      <h2>Go deep into React - Example codes</h2>
+      <h1>Go deep into React - Example codes</h1>
     </div>
     {renderChapterButtons()}
   </div>

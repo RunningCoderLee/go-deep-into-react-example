@@ -30,19 +30,15 @@ class TwoPointOne extends React.Component {
   render() {
     return (
       <div>
-        <button onClick={this.handleClickByBindInCons}>By Bind In Constructor</button>
-        <br />
-        <br />
-        <button onClick={this.handleClickByBind.bind(this, 'ByBind')}>By Bind</button>
-        <br />
-        <br />
-        {/* <button onClick={::this.handleClickByDoubleColon}>By Double Colon</button> */}
-        <br />
-        <br />
-        <button onClick={this.handleClickByArrowFunc1}>By Arrow Function 1</button>
-        <br />
-        <br />
-        <button onClick={() => this.handleClickByArrowFunc2()}>By Arrow Function 2</button>
+        <button className="ant-btn" onClick={this.handleClickByBindInCons}>By Bind In Constructor</button>
+        &emsp;
+        <button className="ant-btn" onClick={this.handleClickByBind.bind(this, 'ByBind')}>By Bind</button>
+        &emsp;
+        <button className="ant-btn" onClick={::this.handleClickByDoubleColon}>By Double Colon</button>
+        &emsp;
+        <button className="ant-btn" onClick={this.handleClickByArrowFunc1}>By Arrow Function 1</button>
+        &emsp;
+        <button className="ant-btn" onClick={() => this.handleClickByArrowFunc2()}>By Arrow Function 2</button>
       </div>
     )
   }

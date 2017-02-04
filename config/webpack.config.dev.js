@@ -26,7 +26,7 @@ module.exports = {
   // See the discussion in https://github.com/facebookincubator/create-react-app/issues/343.
   // chrome 某些版本不支持在下一行的配置模式下断点调试，暂用inline代替cheap-module
   devtool : 'cheap-module-eval-source-map',
-  // devtool: 'inline-eval-source-map',
+  // devtool : 'eval',
   // These are the "entry points" to our application.
   // This means they will be the "root" imports that are included in JS bundle.
   // The first two entry points enable "hot" CSS and auto-refreshes for JS.
